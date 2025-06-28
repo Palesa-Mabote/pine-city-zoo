@@ -5,6 +5,7 @@ body {
 }
 
 /********** HEADER ***********/
+
 #header {
   position: fixed;
   top: 0;
@@ -24,6 +25,7 @@ body {
 }
 
 /********** TOP-TABS ***********/
+
 #tabs-top {
   position: fixed;
   top: 80px;
@@ -47,11 +49,13 @@ body {
 }
 
 /********** MAIN-HOME *********/
+
 #main-home {
   margin-top: 120px;
 }
 
 /********* TABS-BOTTOM ********/
+
 #tabs-bottom {
   position: fixed;
   bottom: 0;
@@ -120,4 +124,67 @@ body {
   float: right;
   margin-top: 25px;
   height: 40px;
+}
+
+/* Animals Content Page */
+
+#info-box-full {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  padding: 10px;
+}
+
+#info-box-full img {
+  width: 100%;
+}
+
+#info-box-full h3 {
+  text-align: center;
+}
+
+/* Weather Page */
+
+.info-box-weather-icon {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  float: left;
+}
+
+.info-box-weather-icon-heading {
+  font-size: 65px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+
+/* Feedback Page */
+
+input {
+  width: 100%;
+  height: 25px;
+  margin: 12px 0;
+  border: 1px solid #929292;
+}
+
+textarea {
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  border: 1px solid #929292;
+}
+
+.button {
+  display: block;
+  background-color: forestgreen;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0;
+  padding: 8px 0;
 }
